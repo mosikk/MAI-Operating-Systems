@@ -5,3 +5,6 @@ child:
 
 parent:
 	gcc parent.c -o parent
+
+clean:
+	rm -rf child parent
